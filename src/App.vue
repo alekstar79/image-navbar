@@ -140,8 +140,9 @@ body {
   height: 100vh;
   @include flexCenter;
   background-color: #fcfcfc;
-  padding: 0.2rem;
-  font-size: 0.3rem;
+  overflow: hidden;
+  padding: .2rem;
+  font-size: .3rem;
   font-family: 'Nunito', sans-serif;
   position: relative;
   &:before {
@@ -185,7 +186,7 @@ $frame-size: .8rem;
     height: $frame-size;
     border-radius: 50%;
     transition: all 0.2s;
-    box-shadow: 0 0 0 10rem rgba(#000, 0.7);
+    box-shadow: 0 0 0 10rem rgba(#000, .7);
   }
   .link {
     position: absolute;
@@ -273,7 +274,6 @@ section {
   font-size: .2rem;
   line-height: 1.8;
   text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff;
-
   br {
     content: '';
     display: block;
